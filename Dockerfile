@@ -6,6 +6,6 @@ COPY . .
 RUN npm install
 # Set YOUR_NAME environment variable
 # Expose the correct port
-EXPOSE 5500
+EXPOSE 5000
 # Create an entrypoint
 ENTRYPOINT ["node","index.js"]

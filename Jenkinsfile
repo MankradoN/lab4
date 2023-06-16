@@ -16,7 +16,7 @@ pipeline {
 
         stage('run docker') {
             steps {
-                sh "docker run -d -p 80:5500 --name npde-app mankradon/node-web-app"
+                sh "docker run -d -p 80:5000 --name npde-app mankradon/node-web-app"
             }
         }
     }
